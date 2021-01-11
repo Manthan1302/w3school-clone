@@ -1,0 +1,295 @@
+.nav{
+	display: flex;
+	padding-left: 10px;
+	padding-right: 10px;
+	flex-wrap: wrap;
+}
+.nav-flex-left{
+		flex:40%;
+		margin-top: 20px;
+	
+}
+.nav-flex-right{
+	display: flex;
+		flex:60%;
+		font-family: 'Segoe UI',Arial,sans-serif;
+		letter-spacing: 4px;
+		justify-content: flex-end;
+		flex-wrap: wrap;
+
+}
+.nav-login-button{
+	background-color: #4CAF50;
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+	color: white;
+	font-size: 17px;
+}
+.nav-login-button:hover{
+	background-color: darkgreen;
+}
+.second-nav{
+	display: flex;
+	background-color: #4CAF50 ;
+	flex-wrap: wrap;
+	box-shadow: 2px 2px 2px 2px lightgray;
+	
+	}
+.second-nav-a{
+	flex: 70%;
+	color: white;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	letter-spacing: 4px;
+	
+
+
+}
+.second-nav-b{
+	flex: 30%;
+	display: flex;
+	font-size: 20px;
+	color: white;
+	justify-content: flex-end;
+	
+	
+}
+.hover{
+color: white;	
+letter-spacing: 4px;
+padding: 10px;
+
+}
+.hover:hover{
+	background-color: white;
+	color: black;
+}
+.main{
+	display: flex;
+	font-family: "Segoe UI",Arial,sans-serif;
+	
+}
+.main-left{
+	flex:20%;
+	padding: 10px;
+	box-shadow: 0px 2px 2px 2px lightgray;
+
+}
+
+
+.main-right{
+	flex: 80%;
+	
+	
+
+}
+.main-left p:hover{
+	background-color: lightgray;
+}
+.size{
+	font-size: 18px;
+}
+.size div:hover{
+	background-color: lightgray;	
+}
+.right-flex{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	margin-right:65px;
+}
+h1{
+	font-size: 80px;
+	color: #555555;
+	font-family: 'Segoe UI',Arial,sans-serif;
+	font-weight: 400;
+}
+.right-text{
+	color: #3a3a3a!important;
+	font-size: 24px;
+	text-align: center;
+}
+.button{
+	font-size: 16px;
+	margin: 5px 25px 5px 0;
+	color: white;
+	background-color: #616161;
+	padding: 8px 16px;
+	border:none;
+}
+.button:hover{
+	background-color: lightgray;
+	color: black;
+}
+.box{
+	background-color: #f1f1f1!important;
+	height: 380px;
+	width: 430px;
+	padding: 10px;
+	margin-top:50px;
+	border-radius: 8px; 
+}
+h3{
+	
+	font-family: 'Segoe UI',Arial,sans-serif;
+	font-weight: 400;
+	padding: 10px;
+	font-size: 24px;
+}
+.inner-box{
+	background-color: white;
+	height: 210px;
+	width: 400px;
+	padding: 10px;
+	margin-top: -15px;
+	border-left: 4px solid #4CAF50;
+}
+.w3-try-button{
+	margin: 15px 5px 5px 0;
+	font-size: 16px;
+	background-color: #4CAF50;
+	color: #fff;
+	border: none;
+	padding: 8px 16px;
+}
+.w3-try-button:hover{
+	box-shadow: 2px 2px 12px 5px lightgray;
+}
+
+.middle{
+		background-color: #616161;
+		display: flex;
+		justify-content: space-around;
+		padding: 10px;
+		padding-top:40px;
+}
+.card{
+	height: 200px;
+	width: 480px;
+	background-color: white;
+	text-align: center;
+	box-shadow: 0px 2px 2px 0px lightgray;
+}
+h2{
+	font-family: 'Segoe UI',Arial,sans-serif;
+	font-weight: 400;
+	margin: 10px;
+	font-size: 36px;
+}
+h4{
+	font-family: 'Segoe UI',Arial,sans-serif;
+	font-weight: 400;
+	margin: 10px;
+	font-size: 20px;
+}
+.middle-genral{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	padding: 10px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	text-align: center;
+}
+.img:hover{
+	opacity: 0.5;
+}
+.exercise{
+	background-color: #616161;
+	color: white;
+	text-align: center;
+	padding-top: 25px;
+	height: 320px;
+	padding:10px;
+}
+.ex-button{
+	font-size: 16px;
+	margin: 5px 25px 5px 0;
+	background-color: #4CAF50;
+	color: white;
+	padding: 8px 16px;
+	border:none;
+	width: 150px;
+	height: 50px;
+}
+.ex-button:hover{
+	background-color: darkgreen; 
+}
+.template{
+	text-align: center;
+	padding: 10px;
+	background-color: #f1f1f1;
+}
+.section{
+	text-align: center;
+
+}
+.certificates{
+	background-color: rgba(0, 0, 0, 0.5);
+	text-align: center;
+	position: absolute;
+	top: 0%;
+	width: 90%;
+	color: white;
+	padding: 10px;
+}
+.certifide-button{
+	position: absolute;
+	top: 50%;
+	left: 45%;
+	margin: 15px 5px 5px 0;
+	font-size: 17px;
+	background-color: #4CAF50;
+	color: #fff;
+	width: 150px;
+	height: 50px;
+	border: none;
+	padding: 8px 16px;
+}
+.cer-img{
+	max-width: 100%;
+	margin:auto;
+	display: block;
+	}
+.certificates:hover{
+	color: #4CAF50;
+}
+.certifide-button:hover{
+	background-color: white;
+	color: black;
+}
+.footer{
+	background-color: #616161;
+	color: white;
+	padding:20px; 
+}
+.footer-button{
+	margin: 15px 5px 5px 0;
+	font-size: 17px;
+	width: 210px;
+	height: 50px;
+	border: none;
+	padding: 8px 16px;
+	color: black;
+	background-color: #f1f1f1;
+}
+.footer-button:hover{
+	background-color: lightgray;
+}
+.w3-try-button-last{
+	margin: 15px 5px 5px 0;
+	font-size: 16px;
+	background-color: #4CAF50;
+	color: #fff;
+	border: none;
+	padding: 8px 16px;
+}
+.w3-try-button-last:hover{
+	background-color: lightgray;
+	color: black;
+}
+.aboutus:hover{
+	color: #4CAF50;
+}
